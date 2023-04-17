@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -10,84 +10,93 @@
 </head>
 
 <body>
-    <!-- *Header* -->
+    <!-- ****** CABEÇALHO ****** -->
     <header>
-        <div class="header-flex grid-layout">
-
-            <h1 id="Logotipo">Estilo<span id="UX">UX</span></h1>
+        <div class="container-grid header-flex"><!-- container flex -->
+            <!-- Título principal da página -->
+            <h1>
+                Estilo<span id="logoux">UX</span>
+            </h1>
 
             <nav>
                 <a href="">Home</a>
-                <a href="">About</a>
-                <a href="">Contact</a>
+                <a href="">Sobre</a>
+                <a href="">Contato</a>
             </nav>
-
         </div>
     </header>
 
-    <!-- Main -->
-
     <main>
-        <section class="About">
-            <div class="grid-layout colunas-flex">
-                <section class="column1">
-                    <img id="pencil" src="images/pencil-image.png" alt="Imagem Principal">
+        <div class="container-grid colunas-flex">
 
-                    <h2>Colors with Harmony</h2>
-                    <br>
-                    <p>Understand how to make color combinations that make sense for your visual identity</p>
-                    <br>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos iusto, perferendis harum
-                        nostrum repellendus eos ex corporis, libero cupiditate ratione ipsum magni reprehenderit iste
-                        vel.
-                        Eveniet distinctio quas qui ullam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. At
-                        labore recusandae aut eaque, culpa eligendi quas ratione veniam deleniti architecto dignissimos
-                        inventore nam non cum harum, magni suscipit doloribus voluptate.</p>
-                    <br>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum iure neque accusantium
-                        autem,
-                        sequi veritatis possimus molestiae qui doloribus, id assumenda non illo eum tempora aliquam,
-                        delectus ab repellat itaque.</p>
-                </section>
 
-                <aside class="column2">
-                    <article class="search-colunm">
-                        <h3>Search</h3>
-                        <div class="Search">
-                            <input type="text">
-                            <img src="assets/icons/Vector-Busca.png" alt="">
-                        </div>
-                    </article>
+            <section class="coluna1">
+                <img id="lapis" src="images/pencil-image.png" alt="Lápis de Cor">
 
-                    <article class="posts">
-                        <h3>Previous Posts</h3>
-                        <ul>
-                            <li>Tips to improve the usability of your page</li>
-                            <li>How to identify errors in a visual composition</li>
-                            <li>Colors with Harmony</li>
-                            <li>7 Illustrator hacks and tips you need to know</li>
-                        </ul>
-                    </article>
+                <h2>Cores com harmonia</h2>
 
-                    <article class="sing up">
-                        <h3>Sing Up</h3>
-                        <p id="email">Receive our site news on your email! Just add your email below!</p>
-                        <div class="Mail">
-                            <input type="text" placeholder="Enter your email here:">
-                            <button>Send</button>
-                        </div>
-                    </article>
-                </aside>
-            </div>
-        </section>
+                <p>Entenda como fazer combinação de cores que fazem sentido para sua identidade visual</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo debitis vel libero numquam soluta
+                    incidunt
+                    sunt porro unde ratione. Ab quae fuga, facere aspernatur explicabo ad! Facere magnam recusandae
+                    numquam!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo debitis vel libero numquam soluta
+                    incidunt
+                    sunt porro unde ratione. Ab quae fuga, facere aspernatur explicabo ad! Facere magnam recusandae
+                    numquam!
+                </p>
+
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non, asperiores natus. Aliquam illum natus
+                    ullam voluptatum architecto soluta, hic, ducimus doloremque mollitia impedit perspiciatis excepturi
+                    dolorem quos saepe corrupti. Quam.</p>
+            </section>
+
+            <aside class="coluna2">
+
+                <article id="search">
+                    <h3>Buscar</h3>
+
+                    <div class="search-bar search-flex">
+
+                        <input class="pesquisar-barra" type="text">
+
+                        <button class="pesquisar">
+                            <span class="material-symbols-outlined">
+                                <img src="assets/icons/search-icon.png" alt="">
+                            </span>
+                        </button>
+                    </div>
+                </article>
+
+                <article id="posts">
+                    <h3>Posts Anteriores</h3>
+
+                    <ul>
+                        <li>Dicas para melhorar a usabilidade da sua página</l1>
+                        <li>Como identificar erros em uma composição visual</l1>
+                        <li>Cores com harmonia</l1>
+                        <li>7 hacks e dicas do Illustrator que você precisa conhecer</l1>
+                    </ul>
+                </article>
+
+                <article id="email">
+                    <h3>Inscreva-se</h3>
+
+                    <p>Receba as novidades do site em seu e-mail! Basta adicionar seu e-mail abaixo!</p>
+
+                    <input class="pesquisar-email" type="text">
+                </article>
+            </aside>
+
+        </div>
     </main>
 
-    <!-- Rodapé -->
-
     <footer>
-            <p id="rigths">EstiloUX 2023 - All rights reserved</p>
+        <div class="container-grid footer-flex">
+            <p>EstiloUX 2023 - Todos os direitos reservados</p>
+        </div>
     </footer>
-
 </body>
 
 </html>
