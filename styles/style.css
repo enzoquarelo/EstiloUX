@@ -70,6 +70,7 @@ main .colunas-flex {
 main .coluna1 {
     width: 75%;
     background-color: white;
+    border-radius: 8px;
     /* background-color: green; */
 }
 
@@ -115,6 +116,7 @@ article{
     flex-direction: column;
     padding-top: 15px;
     padding-bottom: 15px;
+    border-radius: 6px;
 }
 
 
@@ -149,6 +151,14 @@ article{
 .pesquisar-barra {
     border: 3px solid rgb(231, 231, 231);
     margin-right: 10px;
+    border-radius: 4px;
+}
+
+.pesquisar-email{
+    border: 3px solid rgb(226, 226, 226);
+    margin-bottom: 15px;
+    height: 35px;
+    border-radius: 4px;
 }
 
 /* **************RODAPÉ ************************ */
@@ -164,10 +174,4 @@ footer {
     background-color: grey;
     color: white;
     height: 100%;
-}
-
-.pesquisar-email{
-    border: 3px solid rgb(226, 226, 226);
-    margin-bottom: 15px;
-    height: 35px;
 }
